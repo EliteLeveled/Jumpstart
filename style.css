@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 7.5% 25% 7.5% 31%;
+  background-color: #151515;
+  color: #fff;
+  min-height: 100vh; 
+  overflow: hidden; 
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  max-width: fixed;
+  height: fixed;
+}
+
+.content {
+  flex: 1;
+  margin-left: 100px; /* Space between image and content */
+}
+
+/* Styling for the to-do list */
+#todo-list {
+  border: 2px solid white; /* Border properties */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px; /* Reduced padding */
+  max-height: 200px; /* Maximum height for the to-do list */
+  max-width: 250px; /* Maximum width for the to-do list */
+  overflow-y: auto; /* Add scrollbar if content exceeds max height */
+}
+
+#todo-list-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.links {
+  margin-top: 20px; /* Space between to-do list and links */
+}
+
+.links h2 {
+  margin-bottom: 10px; /* Space below headings */
+  color: #72dae8; /* color for general and linux headings */
+}
+
+.links ul {
+  list-style-type: none; 
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #9e48f0; /* hyperlink color */
+  padding-left: ; /* hyperlink text spacing */
+  line-height: 1.5; /* hyperlink space b/w lines */
+}
+
+#datetime {
+  color: #888; /* datetime text */
+}
